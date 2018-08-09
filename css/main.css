@@ -2,12 +2,31 @@
     html{
         height: 100%;
         min-height: 100%;
+        background-color: #f8f8f9;
       }
+
+      input:focus { 
+        outline: none !important;
+        /* border-color: #719ECE; */
+        box-shadow: 0 0 3px blue; 
+        
+    }
       
-    form{
+    
+    .container{
+        /* padding: -5%; */
+        width:100%;
+        margin:auto;
+        overflow:hidden;
+      }
+
+      form{
+
         position: absolute;
-        margin-left: 320px;
+        margin-left: 36%;
         width: auto;
+        border-color: #e5e5e4;
+
     }
       #body{
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -15,10 +34,12 @@
         }
 
     #img-header{
-        height: 70px;
+        height: 56px;
         width: auto;
+        background-size:5%;
         margin-top: -30px;
-        background-color: #11939a;
+        background-image:url('../images/pattern.png');
+        background-repeat: repeat;
    }
     
      #header{
@@ -32,19 +53,217 @@
     #uber-logo h1{
         /* padding-bottom:0px; */
         /* padding-top:40px; */
-        padding: 40px 15px;
+        padding: 20px 15px;
+        background-color: black;
+        height: 33px;
+        width: 70px;
+        margin-top: -15px; 
+        margin-left: 46%;  
+        FONT-FAMILY: MONOSPACE; 
+        font-size: 20PX;
+        TEXT-ALIGN: CENTER;
+
+    }
+
+    /* form */
+    .form-box{
+        /* left: 50%; */
+        /* position: absolute; */
+        /* padding-bottom: 100px; */
+        /* padding-top: 200px; */
+        /* padding-left: 50px; */
+        /* padding-right: 50px; */
+    }
+    
+    .form-box p{
+        font-size: 14px;
+        }
+    .form-box input{
+        width: 100%;
+        margin-bottom: 20px;
+        }
+    .form-box textarea{
+          width: 100%;
+          margin-bottom: 20px;
+        }
+        
+    .form-box input[type="submit"]:hover
+        {
+        cursor: pointer;
+        }
+
+    
+        
+    .form-box a{
+        text-decoration: none;
+        font-size: 13px;
+        color: #11939a;
+        }
+        
+        
+    .form-box p{
+        margin: 0;
+        padding: 0;
+        font-weight: normal;
+        }
+
+    .form-box select input[type="text"] {
+        display: flex;
+    }
+
+    .flex {
+        display: inline-flex;
+        width: auto;
+        margin: 3 -5px;
+        justify-content: space-between;           
+    }
+.child1 {
+    justify-content: space-around;
+    margin-right: 18px;
+}   
+.dropdown{
+    display: flex;
+    margin: 3px -5px;
+    justify-content:start;  
+    height: 40px;
+    margin-bottom: 10px; 
+}
+.input-phone{
+    outline: none;
+    width: 100%;
+    background-image: url('../images/phone.png');
+    background-position:100%;
+    background-size: 4%;
+    background-repeat:no-repeat;
+    border-color: #e5e5e42e;
+    height: 90px;
+    
+}    
+    .form-box input[type="text"]
+        {
+        outline: none;
+        height: 40px;
+        color:black;
+        font-size: 14px;
+        border-color: #e5e5e42e;
+        
+
+        }
+
+    select {
+
+        outline: none;
+        height: 45px;
+        color:black;
+        font-size: 14px;
+        border-color: #e5e5e42e;
+
+
+    }
+
+  
+
+    .form-box input[type="password"],textarea
+    {
+        outline: none;
+        height: 40px;
+        
+        font-size: 12px;
+        background-image: url('../images/password.png');
+        background-position:100%;
+        background-size: 4%;
+        background-repeat: no-repeat;
+        border-color: #e5e5e42e;
+        
+
+        }
+    .form-box input[name="email"]{
+        background-image: url('../images/email.png');
+        background-position:100%;
+        background-size: 4%;
+        background-repeat: no-repeat;
+        border-color: #e5e5e42e;
+        
+
+
+
+    }
+
+    .form-box input[type="submit"]
+        {
+        border: none;
+        outline: none;
+        height: 40px;
+        background: #11939a;
+        color: #fff;
+        font-size: 18px;
+        
+        text-align: left;
+
+
+        
+        }
+
+@media (min-width:300px) and (max-width: 1222px) {
+
+    
+    html{
+        height: 100%;
+        min-height: 100%;
+        background-color: #f8f8f9;
+      }
+      
+    
+    .container{
+        /* padding: -5%; */
+        width:100%;
+        margin:auto;
+        overflow:hidden;
+      }
+
+      form{
+
+        position: absolute;
+        margin-left: 31%;
+        width: auto;
+        border-color: #e5e5e4;
+      }
+
+      #body{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        background-size: cover;
+        }
+
+    #img-header{
+        height: 50px;
+        width: auto;
+        margin-top: -30px;
+        background-image:url('../images/pattern.png');
+        background-repeat: repeat;
+   }
+    
+     #header{
+           
+            color:#ffffff;
+            padding-top:12px;
+            min-height:60px;   
+            vertical-align: middle;
+          }
+
+    #uber-logo h1{
+        /* padding-bottom:0px; */
+        /* padding-top:40px; */
+        padding: 20px 15px;
         background-color: black;
         height: 30px;
         width: 70px;
         margin-top: -15px; 
-        margin-left: 44%;   
+        margin-left: 46%;  
+        FONT-FAMILY: MONOSPACE; 
+        font-size: 20PX;
+        TEXT-ALIGN: CENTER;
+
     }
-    .container{
-        padding: 0%;
-        width:80%;
-        margin:auto;
-        overflow:hidden;
-      }
 
     /* forms */
     .form-box{
@@ -88,7 +307,7 @@
         font-weight: normal;
         }
 
-    .form-box select input[type="text" name ="phone number"] {
+    .form-box select input[type="text"] {
         display: flex;
     }
 
@@ -105,39 +324,68 @@
 .dropdown{
     display: flex;
     margin: 3 -5px;
-    justify-content:start;   
+    justify-content:start;  
+    height: 40px;
+    margin-bottom: 10px; 
 }
 .input-phone{
+    outline: none;
     width: 100%;
     background-image: url('../images/phone.png');
     background-position:100%;
     background-size: 4%;
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
+    border-color: #e5e5e42e;
+    height: 90px;
+    
 }    
-    .form-box input[type="text"],select
+    .form-box input[type="text"]
         {
         outline: none;
         height: 40px;
         color:black;
         font-size: 14px;
-         }
+        border-color: #e5e5e42e;
+        
+
+        }
+
+    select {
+
+        outline: none;
+        height: 45px;
+        color:black;
+        font-size: 14px;
+        border-color: #e5e5e42e;
+
+
+    }
+
+  
 
     .form-box input[type="password"],textarea
     {
         outline: none;
         height: 40px;
-        color: #fff;
+        
         font-size: 12px;
         background-image: url('../images/password.png');
         background-position:100%;
         background-size: 4%;
         background-repeat: no-repeat;
+        border-color: #e5e5e42e;
+        
+
         }
     .form-box input[name="email"]{
         background-image: url('../images/email.png');
         background-position:100%;
         background-size: 4%;
         background-repeat: no-repeat;
+        border-color: #e5e5e42e;
+        
+
+
 
     }
 
@@ -150,307 +398,10 @@
         color: #fff;
         font-size: 18px;
         
-        }
+        text-align: left;
 
-@media  (min-width: 200px)and (max-width: 730px) {
-      
-    form{
-        position: absolute;
-        margin-left: 85px;
-    }
-      #body{
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        background-size: cover;
-        }
 
-    #img-header{
-        height: 70px;
-        width: auto;
-        margin-top: -30px;
-        background-color: #11939a;
-    }
-    
-     #header{
-           
-            color:#ffffff;
-            padding-top:12px;
-            min-height:60px;   
-            vertical-align: middle;
-          }
-
-    #uber-logo h1{
-        /* padding-bottom:0px; */
-        /* padding-top:40px; */
-        padding: 40px 15px;
-        background-color: black;
-        height: 30px;
-        width: 70px;
-        margin-top: -15px; 
-        margin-left: 44%;   
-    }
-    .container{
-        padding: 0%;
-        width:80%;
-        margin:auto;
-        overflow:hidden;
-      }
-
-    /* forms */
-    .form-box{
-        /* left: 50%; */
-        /* position: absolute; */
-        /* padding-bottom: 100px; */
-        /* padding-top: 200px; */
-        /* padding-left: 50px; */
-        /* padding-right: 50px; */
-    }
-    
-    .form-box p{
-        font-size: 14px;
-        }
-    .form-box input{
-        width: 100%;
-        margin-bottom: 20px;
-        }
-    .form-box textarea{
-          width: 100%;
-          margin-bottom: 20px;
-        }
         
-    .form-box input[type="submit"]:hover
-        {
-        cursor: pointer;
-        }
-
-    
-        
-    .form-box a{
-        text-decoration: none;
-        font-size: 13px;
-        color: #11939a;
-        }
-        
-        
-    .form-box p{
-        margin: 0;
-         padding: 0;
-        font-weight: normal;
-        }
-
-    .form-box select input[type="text" name ="phone number"] {
-        display: flex;
-    }
-
-    .flex {
-        display: inline-flex;
-        width: auto;
-        margin: 3 -5px;
-        justify-content: space-between;           
-    }
-.child1 {
-    justify-content: space-around;
-    margin-right: 20px;
-}   
-.dropdown{
-    display: flex;
-    margin: 3 -5px;
-    justify-content:start;   
-}
-.input-phone{
-    width: 100%;
-    background-image: url('../images/phone.png');
-    background-position:100%;
-    background-size: 4%;
-    background-repeat: no-repeat;
-}    
-    .form-box input[type="text"],select
-        {
-        outline: none;
-        height: 40px;
-        color:black;
-        font-size: 14px;
-         }
-
-    .form-box input[type="password"],textarea
-    {
-        outline: none;
-        height: 40px;
-        color: #fff;
-        font-size: 12px;
-        background-image: url('../images/password.png');
-        background-position:100%;
-        background-size: 4%;
-        background-repeat: no-repeat;
-        }
-    .form-box input[name="email"]{
-        background-image: url('../images/email.png');
-        background-position:100%;
-        background-size: 4%;
-        background-repeat: no-repeat;
-
-    }
-
-    .form-box input[type="submit"]
-        {
-        border: none;
-        outline: none;
-        height: 40px;
-        background: #11939a;
-        color: #fff;
-        font-size: 18px;
-        
-        }
-    }
-
-    @media (min-width:731px) and (max-width:900px) {
-        form{
-            position: absolute;
-           
-        }
-          #body{
-            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-            background-size: cover;
-            }
-    
-        #img-header{
-            height: 70px;
-            width: auto;
-            margin-top: -30px;
-            background-color: #11939a;
-        }
-        
-         #header{
-               
-                color:#ffffff;
-                padding-top:12px;
-                min-height:60px;   
-                vertical-align: middle;
-              }
-    
-        #uber-logo h1{
-            /* padding-bottom:0px; */
-            /* padding-top:40px; */
-            padding: 40px 15px;
-            background-color: black;
-            height: 30px;
-            width: 70px;
-            margin-top: -15px; 
-            margin-left: 44%;   
-        }
-        .container{
-            padding: 0%;
-            width:80%;
-            margin:auto;
-            overflow:hidden;
-          }
-    
-        /* forms */
-        .form-box{
-            /* left: 50%; */
-            /* position: absolute; */
-            /* padding-bottom: 100px; */
-            /* padding-top: 200px; */
-            /* padding-left: 50px; */
-            /* padding-right: 50px; */
-        }
-        
-        .form-box p{
-            font-size: 14px;
-            }
-        .form-box input{
-            width: 100%;
-            margin-bottom: 20px;
-            }
-        .form-box textarea{
-              width: 100%;
-              margin-bottom: 20px;
-            }
-            
-        .form-box input[type="submit"]:hover
-            {
-            cursor: pointer;
-            }
-    
-        
-            
-        .form-box a{
-            text-decoration: none;
-            font-size: 13px;
-            color: #11939a;
-            }
-            
-            
-        .form-box p{
-            margin: 0;
-           // font-size: 13px;
-            padding: 0;
-            font-weight: normal;
-            }
-    
-        .form-box select input[type="text" name ="phone number"] {
-            display: flex;
-        }
-    
-        .flex {
-            display: inline-flex;
-            width: auto;
-            margin: 3 -5px;
-            justify-content: space-between;           
-        }
-    .child1 {
-        justify-content: space-around;
-        margin-right: 20px;
-    }   
-    .dropdown{
-        display: flex;
-        margin: 3 -5px;
-        justify-content:start;   
-    }
-    .input-phone{
-        width: 100%;
-        background-image: url('images/phone.png');
-        background-position:100%;
-        background-size: 4%;
-        background-repeat: no-repeat;
-        color:gray;
-    }    
-        .form-box input[type="text"],select
-            {
-            outline: none;
-            height: 40px;
-            color:black;
-            font-size: 14px;
-             }
-    
-        .form-box input[type="password"],textarea
-        {
-            outline: none;
-            height: 40px;
-            color: #fff;
-            font-size: 12px;
-            background-image: url('images/password.png');
-            background-position:100%;
-            background-size: 4%;
-            background-repeat: no-repeat;
-            }
-        .form-box input[name="email"]{
-            background-image: url('images/email.png');
-            background-position:100%;
-            background-size: 4%;
-            background-repeat: no-repeat;
-    
-        }
-    
-        .form-box input[type="submit"]
-            {
-            border: none;
-            outline: none;
-            height: 40px;
-            background: #11939a;
-            color: #fff;
-            font-size: 18px;
-            
-            }
         }
 
     }
