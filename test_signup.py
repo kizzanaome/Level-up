@@ -1,5 +1,6 @@
+
 import unittest
-from app.app import Usercredentials
+from app import Usercredentials
 from unittest import TestCase
 
 
@@ -15,11 +16,6 @@ class Testsignup(unittest.TestCase):
         signup = Usercredentials.isValidEmail('naome@gmail.com')
         self.assertEqual(signup, 'naome@gmail.com')
 
-
-
-
-if __name__ == '__main__':
-    unittest.setup()
 
 
     
